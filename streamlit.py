@@ -6,7 +6,7 @@ from langchain.vectorstores import FAISS
 from langchain.llms import OpenAI
 from langchain.chains import RetrievalQA
 
-openai_api_key = st.secrets["openai"]["api_key"]
+openai_api_key = st.secrets["openai_api_key"]
 
 OpenAI.api_key = openai_api_key
 
